@@ -1,7 +1,12 @@
-body {
-    background-color: darkgray;
-    color: black;
-}
 a:hover{
     color: rebeccapurple;
+}
+
+#toggleMode {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    height: auto;
+    width:  auto;
 }
