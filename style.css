@@ -2,3 +2,6 @@ body {
     background-color: darkgray;
     color: black;
 }
+a:hover{
+    color: rebeccapurple;
+}
