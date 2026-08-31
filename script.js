@@ -4,8 +4,8 @@ const myButton = document.querySelector("#toggleMode")
 const savedTheme = localStorage.getItem("theme");
 
 if (savedTheme === "dark") {
-    myBody.style.backgroundColor = "black";
-    myBody.style.color = "white";
+    myBody.style.backgroundColor = "gray";
+    myBody.style.color = "bisque";
     myButton.textContent = "☀️";
 } else {
     myBody.style.backgroundColor = "white";
@@ -17,8 +17,8 @@ if (savedTheme === "dark") {
 
 function darkMode() {
     if (myBody.style.backgroundColor === "white") {
-        myBody.style.backgroundColor = "black";
-        myBody.style.color = "white";
+        myBody.style.backgroundColor = "gray";
+        myBody.style.color = "bisque";
         myButton.textContent = "☀️";
 
         localStorage.setItem("theme", "dark");
