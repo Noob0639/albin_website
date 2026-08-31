@@ -1,18 +1,33 @@
 const myBody = document.querySelector("body");
 const myButton = document.querySelector("#toggleMode")
 
-myBody.style.backgroundColor = "white";
-myBody.style.color = "black";
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme === "dark") {
+    myBody.style.backgroundColor = "black";
+    myBody.style.color = "white";
+    myButton.textContent = "☀️";
+} else {
+    myBody.style.backgroundColor = "white";
+    myBody.style.color = "black";
+    myButton.textContent = "🌙";
+}
+
+
 
 function darkMode() {
     if (myBody.style.backgroundColor === "white") {
         myBody.style.backgroundColor = "black";
         myBody.style.color = "white";
         myButton.textContent = "☀️";
+
+        localStorage.setItem("theme", "dark");
     } else {
         myBody.style.backgroundColor = "white";
         myBody.style.color = "black";
         myButton.textContent = "🌙";
+
+        localStorage.setItem("theme", "light")
     }
 }
 
