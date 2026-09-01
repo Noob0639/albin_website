@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'DSEG7-Modern';
+    src: url('/fonts/DSEG14-Modern/DSEG14Modern-Bold.woff2') format('woff2');
+    font-display: swap;
+}
+
+.time {
+    position: fixed;
+    top:50%;
+    left:50%;
+    font-size: 150px;
+    font-family: 'DSEG7-Modern', monospace; 
+    font-weight:500;
+    color: #4dbb4b;
+    letter-spacing: 4px;
+
+    transform: translate(-50%, -50%);
+}
+
+.clock-bg {
+    position: fixed;
+    top:50%;
+    left:50%;
+    font-size: 150px;
+    font-family: 'DSEG7-Modern', monospace;
+    font-weight: 500;
+    color: #1e311d42;
+    letter-spacing: 4px;
+
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: gray;
+}
