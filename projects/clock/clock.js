@@ -1,12 +1,16 @@
-const timeElement = document.getElementById('time');
-const dateElement = document.getElementById('date');
+ const time = document.querySelector(".time");
 
 function updateClock() {
+
     const now = new Date();
-    timeElement.textContent = now.toLocaleTimeString();
-    dateElement.textContent = now.toLocaleDateString();
+
+    const [hour, minutes, seconds] = [
+        now.getHours(),
+        now.getMinutes(),
+        now.getSeconds(),
+    ];
+    
+    time.textContent = `${String(hour).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 }
 
 setInterval(updateClock, 1000);
-updateClock();
-
