@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'DSEG7-Modern';
-    src: url('/fonts/DSEG14-Modern/DSEG14Modern-Bold.woff2') format('woff2');
+    font-family: 'DSEG7-Classic';
+    src: url('/fonts/DSEG7-Classic/DSEG7Classic-Bold.woff2') format('woff2');
     font-display: swap;
 }
 
@@ -9,7 +9,7 @@
     top:50%;
     left:50%;
     font-size: 150px;
-    font-family: 'DSEG7-Modern', monospace; 
+    font-family: 'DSEG7-Classic', monospace; 
     font-weight:500;
     color: #4dbb4b;
     letter-spacing: 4px;
@@ -22,7 +22,7 @@
     top:50%;
     left:50%;
     font-size: 150px;
-    font-family: 'DSEG7-Modern', monospace;
+    font-family: 'DSEG7-Classic', monospace;
     font-weight: 500;
     color: #1e311d42;
     letter-spacing: 4px;
