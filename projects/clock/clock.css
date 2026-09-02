@@ -24,11 +24,10 @@
     color: #4dbb4b;
     z-index: 2;
     mix-blend-mode: screen;
-    font-weight: 400;
 }
 
 .clock-bg {
-    color: #3e6e3b59;
+    color: #3e6e3b36;
     z-index: 1;
 }
 
