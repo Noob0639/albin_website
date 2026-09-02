@@ -1,4 +1,4 @@
- const time = document.querySelector(".time");
+const time = document.querySelector(".time");
 
 function updateClock() {
 

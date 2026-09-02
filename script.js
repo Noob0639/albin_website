@@ -5,7 +5,7 @@ const savedTheme = localStorage.getItem("theme");
 
 if (savedTheme === "dark") {
     myBody.style.backgroundColor = "gray";
-    myBody.style.color = "bisque";
+    myBody.style.color = "white";
     myButton.textContent = "☀️";
 } else {
     myBody.style.backgroundColor = "white";
@@ -18,7 +18,7 @@ if (savedTheme === "dark") {
 function darkMode() {
     if (myBody.style.backgroundColor === "white") {
         myBody.style.backgroundColor = "gray";
-        myBody.style.color = "bisque";
+        myBody.style.color = "white";
         myButton.textContent = "☀️";
 
         localStorage.setItem("theme", "dark");

@@ -42,6 +42,21 @@ body {
     width: auto;
 }
 
+#projects a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(43, 42, 42);
+    color:rgb(143, 140, 140);
+    
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#projects a:hover {
+    background-color: rgb(27, 26, 26);
+    transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
     nav a {
         margin: 0 5px; 
