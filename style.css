@@ -33,6 +33,12 @@ body {
     margin: 0;
 }
 
+ /* Start page */
+
+ #welcome {
+    text-decoration: underline;
+ }
+
 #toggleMode {
     position: fixed;
     top: 15px; 
@@ -66,8 +72,7 @@ body {
     }
     
     #toggleMode {
-        position: static; 
-        margin-left: auto;
-        margin-right: 15px;
+        position: fixed; 
+        right: 15px;
     }
 }
