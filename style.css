@@ -10,8 +10,8 @@ nav {
     align-items: center;
     justify-content: center;
 }
-li {
-    style-type: none;
+#projects ul {
+    list-style-type: none;
 }
 
 nav a {
