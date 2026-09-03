@@ -45,7 +45,7 @@ To clone and run this project on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/Noob0639/albin_website.git
    ```
 2. **Navigate into the directory:**
    ```bash
