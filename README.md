@@ -31,7 +31,7 @@ Welcome to the repository for my personal portfolio website! This project is a m
 
 ## ✨ Features & Optimizations
 
-* **Clean URL Routing:** Organized directory structures allow for extension-free navigation (e.g., `://domain.com` instead of `about.html`).
+* **Clean URL Routing:** Organized directory structures allow for extension-free navigation (e.g., `://domain.com/about` instead of `about.html`).
 * **Fluid Responsiveness:** Built using a mobile-first design approach to look great across desktops, tablets, and smartphones.
 * **Modular Styling:** Centralized global layout utilizing custom CSS properties for easy theme modifications.
 * **Fast Performance:** Pure vanilla implementation ensuring rapid page load speeds with zero external framework overhead.
