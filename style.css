@@ -40,6 +40,9 @@ nav {
     align-items: center;
     justify-content: center;
 }
+#projects {
+    list-style-type: none;
+}
 
 nav a {
     display: inline-block;
