@@ -60,10 +60,9 @@ nav a:hover {
     transform: scale(1.1);
 }
 
- /* Start page */
-
- #welcome {
+ .headline {
     text-decoration: underline;
+    text-align: center;
  }
 
 #toggleMode {
