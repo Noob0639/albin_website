@@ -218,6 +218,606 @@
                     ]
                 }
             ]
+        }, {
+            "vecka": 41,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "5/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Pastasås med vegokorv*", "detaljer": "Serveras med pasta", "nyhet": false },
+                        { "ikon": "🌭", "titel": "Pastasås m korv* (KY)", "detaljer": "Serveras med pasta", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Pölsa*", "detaljer": "Serveras med potatis", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "6/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Kikärt-morotsbiff", "detaljer": "Med remouladsås*", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Sejpanett", "detaljer": "Med remouladsås* och potatimos", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk = LV", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "7/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg. Wok*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍗", "titel": "Nuggets couscous", "detaljer": "Med sweet chili sås och ris/bulgur", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "8/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Vegofärssås*", "detaljer": "Serveras med pasta", "nyhet": false },
+                        { "ikon": "🍝", "titel": "Köttfärssås*", "detaljer": "Serveras med pasta", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "9/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Karibisk gryta*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Schnitzel", "detaljer": "Med Navets bea* och ugnspotatis", "nyhet": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "vecka": 42,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "12/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Linsstroganoff*", "detaljer": "Serveras med ris/bulgur", "nyhet": false },
+                        { "ikon": "🌭", "titel": "Korvstroganoff*", "detaljer": "Serveras med ris/bulgur", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fläsk = Korvstroganoff (ky)", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "13/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Morotslasagne*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Fisk med ostpanering*", "detaljer": "Med sås* och potatimos", "nyhet": false },
+                        { "ikon": "❄️", "titel": "Frysrensning", "detaljer": "", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk = LV", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "14/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Vegobulle ärta", "detaljer": "Med veg gräddsås*", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Köttbullar", "detaljer": "Med brunsås* och potatis", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "15/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Quorngratäng*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥔", "titel": "Potatisbullar", "detaljer": "Med grönsaksfräs*", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "16/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg Grekiska färsrutor*", "detaljer": "Med tzatziki*", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Helstekt lax", "detaljer": "Med romsås* och potatis", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Viltgryta*", "detaljer": "Serveras med potatis", "nyhet": false },
+                        { "ikon": "🎉", "titel": "OFFENTLIGA MÅLTIDENS DAG", "detaljer": "-Fläsk = LV", "nyhet": true }
+                    ]
+                }
+            ]
+        },
+        {
+            "vecka": 43,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "19/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Tacobiff veg", "detaljer": "Med vitlöksdressing*", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Pannbiff / Köttbullar", "detaljer": "Med brunsås* och potatis", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "20/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Falafel", "detaljer": "Med örtsås*", "nyhet": false },
+                        { "ikon": "🥧", "titel": "Morotspaj*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Leverbiff", "detaljer": "Med gräddsås* och potatis", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fläsk = Alt 1 eller LV", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "21/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg Göingesoppa*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥣", "titel": "Göingesoppa*", "detaljer": "", "nyhet": false },
+                        { "ikon": "❄️", "titel": "Frysrensning", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "22/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Mexikansk ratatouille*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍗", "titel": "Nuggets couscous", "detaljer": "Med gangstersås* och ris/bulgur", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "23/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Kikärtscurry m linser*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍝", "titel": "Navets pastagratäng*", "detaljer": "", "nyhet": false }
+                    ]
+                }
+            ]
+        }, {
+            "vecka": 44,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "26/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Vego korv", "detaljer": "Med potatismos", "nyhet": false },
+                        { "ikon": "🌭", "titel": "Varmkorv", "detaljer": "Med potatismos", "nyhet": false },
+                        { "ikon": "🥔", "titel": "POTATISENS DAG", "detaljer": "-Fläsk = Kycklingvarmkorv eller LV", "nyhet": true }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "27/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Pastasås m Quorn*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥞", "titel": "Tunnpannkaka", "detaljer": "", "nyhet": false },
+                        { "ikon": "❄️", "titel": "Frysrensning", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "28/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Hulken lasagne*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Sprödbakad guldlax", "detaljer": "Med Karl-Alfredsås* och potatimos", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk = LV", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "29/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Vårrullar", "detaljer": "Med vitlöksdressing*", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Kebabgryta*", "detaljer": "Med vitlöksdressing* och ris/bulgur", "nyhet": false },
+                        { "ikon": "❄️", "titel": "Frysrensning", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "30/10",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg Tacorutor*", "detaljer": "Med skysås*", "nyhet": true },
+                        { "ikon": "🥩", "titel": "Köttbullar", "detaljer": "Med skysås* och ugnspotatis", "nyhet": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "vecka": 45,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "2/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Mustig tomatsås*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍝", "titel": "Köttfärssås*", "detaljer": "Serveras med pasta", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "3/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Pastasås m spenat & linser*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Fiskpinnar (GF)", "detaljer": "Med remouladsås och potatimos", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Gryta a'la Navet*", "detaljer": "Serveras med ris", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk = LV eller alt 2", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "4/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg ugnsfärs*", "detaljer": "Med veg brunsås*", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Pannbiff / Köttbullar", "detaljer": "Med brunsås* och potatis", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "5/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Schnitzel", "detaljer": "Med sambalsås* och ugnspotatis", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Köttgryta*", "detaljer": "Serveras med havreris/ris", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fläsk = LV", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "6/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Nuggets couscous", "detaljer": "Med Navets bea*", "nyhet": false },
+                        { "ikon": "🍗", "titel": "Kycklingnuggets", "detaljer": "Med Navets bea* och ris/bulgur", "nyhet": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "vecka": 46,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "9/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Potatis o purjolökssoppa*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥔", "titel": "Potatisbullar", "detaljer": "", "nyhet": false },
+                        { "ikon": "❄️", "titel": "Frysrensning", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "10/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Spenatpinnar", "detaljer": "Med tartarsås*", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Sejpanett", "detaljer": "Med tartarsås* och potatimos", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk = LV", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "11/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Broccolimedaljong", "detaljer": "Med sweet chili sås", "nyhet": false },
+                        { "ikon": "🍗", "titel": "Nuggets couscous", "detaljer": "Med sweet chili sås och ris/bulgur", "nyhet": false },
+                        { "ikon": "🌮", "titel": "Tacolåda*", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "12/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Vegobulle ärta", "detaljer": "Med veg gräddsås*", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Köttbullar (ky)", "detaljer": "Med gräddsås* och potatis", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "13/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Kebabgryta vegan*", "detaljer": "Med vitlöksdressing*", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Kebabgryta*", "detaljer": "Med vitlöksdressing* och ris/bulgur", "nyhet": false }
+                    ]
+                }
+            ]
+        }, {
+            "vecka": 47,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "16/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg. Alfredo*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🦃", "titel": "Pasta Alfredo med kalkon*", "detaljer": "Serveras med pasta", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "17/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Kokos och currygryta*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍗", "titel": "Kyckling", "detaljer": "Med currysauce* och ris/bulgur", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "18/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Grönsaksbiffar*", "detaljer": "Med gräddfilssås*", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Fisk Citrontäcke*", "detaljer": "Med gräddfilssås* och potatimos", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Kalops*", "detaljer": "Serveras med potatis", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk = LV eller alt 2", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "19/11",
+                    "ratter": [
+                        { "ikon": "🥞", "titel": "Tunnpannkaka", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥣", "titel": "Ärtsoppa*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Järpar*", "detaljer": "Med champinjonsås* och potatis", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "20/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Grönsakslasagne*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍝", "titel": "Lasagne*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Himmelsk gryta*", "detaljer": "Serveras med ris", "nyhet": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "vecka": 48,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "23/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Pastasås med vegokorv*", "detaljer": "Serveras med pasta", "nyhet": false },
+                        { "ikon": "🌭", "titel": "Pastasås m korv* (KY)", "detaljer": "Serveras med pasta", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Pölsa*", "detaljer": "Serveras med potatis", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "24/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Kikärt-morotsbiff", "detaljer": "Med remouladsås*", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Sejpanett", "detaljer": "Med remouladsås* och potatimos", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk = LV", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "25/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg. Wok*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍗", "titel": "Nuggets couscous", "detaljer": "Med sweet chili sås och ris/bulgur", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "26/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Vegofärssås*", "detaljer": "Serveras med pasta", "nyhet": false },
+                        { "ikon": "🍝", "titel": "Köttfärssås*", "detaljer": "Serveras med pasta", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "27/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Karibisk gryta*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Schnitzel", "detaljer": "Med Navets bea* och ugnspotatis", "nyhet": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "vecka": 49,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "30/11",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Linsstroganoff*", "detaljer": "Serveras med ris/bulgur", "nyhet": false },
+                        { "ikon": "🌭", "titel": "Korvstroganoff*", "detaljer": "Serveras med ris/bulgur", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fläsk= korv stroganoff (ky)", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "1/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Morotslasagne*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Fisk Ostpanering*", "detaljer": "Med sås* och potatimos", "nyhet": false },
+                        { "ikon": "❄️", "titel": "Frysrensning", "detaljer": "", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk=LV", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "2/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Vegobulle ärta", "detaljer": "Med veg brunsås*", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Köttbullar", "detaljer": "Med brunsås* och potatis", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "3/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Quorngratäng*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥔", "titel": "Potatisbullar", "detaljer": "Med grönsaksfräs*", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "4/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg grekiska färsrutor*", "detaljer": "Med tzatziki*", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Schweizerfärs*", "detaljer": "Med tzatziki* och ugnspotatis", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Viltgryta*", "detaljer": "Serveras med potatis", "nyhet": false },
+                        { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fläsk = LV", "nyhet": false }
+                    ]
+                }
+            ]
+        },        {
+            "vecka": 50,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "7/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Tacobiff veg", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Pannbiff/ Köttbullar", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "8/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Falafel", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Leverbiff", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "9/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg Göingesoppa*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Frysrensning", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "10/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Mexikansk ratatouille*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍗", "titel": "Nuggets couscous", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "11/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Kikärtscurry m linser*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥣", "titel": "Risgrynsgröt*", "detaljer": "", "nyhet": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "vecka": 51,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "14/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Prinskorv vegan", "detaljer": "", "nyhet": false },
+                        { "ikon": "🥩", "titel": "Prinskorv", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "15/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Vegobullar", "detaljer": "", "nyhet": false },
+                        { "ikon": "🎄", "titel": "TRADITIONELLT JULBORD", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "namn": "Onsdag",
+                    "datum": "16/12",
+                    "ratter": [
+                        { "ikon": "🍲", "titel": "Hulken lasagne*", "detaljer": "", "nyhet": false },
+                        { "ikon": "🐟", "titel": "Helstekt lax", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "namn": "Torsdag",
+                    "datum": "17/12",
+                    "ratter": [
+                        { "ikon": "🥢", "titel": "Vårrullar", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍲", "titel": "Kebabgryta*", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "namn": "Fredag",
+                    "datum": "18/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg tacofärs*, salsa", "detaljer": "", "nyhet": false },
+                        { "ikon": "🌮", "titel": "Tacofärs*", "detaljer": "", "nyhet": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "vecka": 52,
+            "dagar": [
+                {
+                    "index": 1,
+                    "namn": "Måndag",
+                    "datum": "21/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg. Burgare", "detaljer": "", "nyhet": false },
+                        { "ikon": "🍔", "titel": "Hamburgare", "detaljer": "", "nyhet": false }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "namn": "Tisdag",
+                    "datum": "22/12",
+                    "ratter": [
+                        { "ikon": "🟢", "titel": "Veg. Snögubbens vegokorvsås*", "detaljer": "", "nyhet": false },
+                        { "ikon": "☃️", "titel": "Snögubbens korvgryta*", "detaljer": "", "nyhet": false }
+                    ]
+                }
+            ]
         }
     ]
 }
