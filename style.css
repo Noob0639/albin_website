@@ -26,10 +26,31 @@ body {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Pushes elements to opposite sides */
     align-items: center;
-    padding: 20px 0;
+    max-width: 1200px;             /* Constrains width on massive screens */
+    width: 100%;
+    margin: 0 auto;                /* Centers the footer container */
+    padding: 30px 20px;
+    border-top: 1px solid #262626;    /* Subtle separation from main content */
 }
+
+.contact a {
+    color: #a3a3a3;                /* Modern, readable neutral grey */
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding: 6px 0;
+    display: inline-block;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.contact a:hover {
+    color: #8a8989;                /* Illuminates crisp white */
+    transform: translateY(-1px);   /* Micro-interaction nudge upward */
+}
+
 
 
 
