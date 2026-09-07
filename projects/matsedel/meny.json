@@ -1,0 +1,55 @@
+{
+    "bestallningsstopp": "TORSDAG 20/8 KL. 08.00",
+    "dagar": [
+        {
+            "index": 1,
+            "namn": "Måndag",
+            "datum": "7/9",
+            "ratter": [
+                { "ikon": "🟢", "titel": "Vego korv", "detaljer": "", "nyhet": false },
+                { "ikon": "🌭", "titel": "Grillkorv", "detaljer": "Med potatismos", "nyhet": false },
+                { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fläsk = Kycklingkorv eller LV", "nyhet": false }
+            ]
+        },
+        {
+            "index": 2,
+            "namn": "Tisdag",
+            "datum": "8/9",
+            "ratter": [
+                { "ikon": "🟢", "titel": "Pastasås m Quorn*", "detaljer": "", "nyhet": false },
+                { "ikon": "🥞", "titel": "Tunnpannkaka", "detaljer": "", "nyhet": false },
+                { "ikon": "❄️", "titel": "Frysrensning", "detaljer": "", "nyhet": false }
+            ]
+        },
+        {
+            "index": 3,
+            "namn": "Onsdag",
+            "datum": "9/9",
+            "ratter": [
+                { "ikon": "🟢", "titel": "Hulken lasagne*", "detaljer": "", "nyhet": false },
+                { "ikon": "🐟", "titel": "Sprödbakad guldlax", "detaljer": "Med Karl-Alfredsås* och potatismos", "nyhet": false },
+                { "ikon": "ℹ️", "titel": "Information", "detaljer": "-Fisk = LV", "nyhet": false }
+            ]
+        },
+        {
+            "index": 4,
+            "namn": "Torsdag",
+            "datum": "10/9",
+            "ratter": [
+                { "ikon": "🟢", "titel": "Veg tacofärs*, salsa", "detaljer": "Serveras med tortillabröd", "nyhet": false },
+                { "ikon": "🌮", "titel": "Tacofärs*", "detaljer": "Med salsa och tortillabröd", "nyhet": false },
+                { "ikon": "❄️", "titel": "Frysrensning", "detaljer": "", "nyhet": false }
+            ]
+        },
+        {
+            "index": 5,
+            "namn": "Fredag",
+            "datum": "11/9",
+            "ratter": [
+                { "ikon": "🟢", "titel": "Vårrullar", "detaljer": "Med vitlöksdressing*", "nyhet": false },
+                { "ikon": "Ⓚ", "titel": "Kebabgryta*", "detaljer": "Med vitlöksdressing* och ris/bulgur", "nyhet": false },
+                { "ikon": "🎉", "titel": "KEBABENS DAG", "detaljer": "Tema-alternativ", "nyhet": true }
+            ]
+        }
+    ]
+}
