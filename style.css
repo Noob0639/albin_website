@@ -36,7 +36,7 @@ body {
 
 footer {
     display: flex;
-    justify-content: space-between; /* Pushes elements to opposite sides */
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;             /* Constrains width on massive screens */
     width: 100%;
