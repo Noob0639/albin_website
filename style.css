@@ -19,8 +19,14 @@ body {
     flex: 1; 
 }
 
-.center {
+.centertext {
     text-align: center;
+}
+
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #projectslist {
