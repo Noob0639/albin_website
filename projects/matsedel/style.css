@@ -128,3 +128,54 @@ header h1 {
     font-weight: bold;
     margin-left: 5px;
 }
+
+#pwa-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 12px;
+  padding: 16px;
+  z-index: 10000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.pwa-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.pwa-container p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+}
+.pwa-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  align-items: center;
+}
+#pwa-accept {
+  background-color: #007aff; /* Klassisk diskret blå, eller matcha din sidas tema */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#pwa-close {
+  background: none;
+  border: none;
+  color: #999;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
