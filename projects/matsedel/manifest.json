@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/projects/matsedel",
   "background_color": "#ffffff",
   "theme_color": "#007aff",
   "display": "standalone",
