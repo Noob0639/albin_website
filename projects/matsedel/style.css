@@ -161,7 +161,7 @@ header h1 {
   align-items: center;
 }
 #pwa-accept {
-  background-color: #007aff; /* Klassisk diskret blå, eller matcha din sidas tema */
+  background-color: #007aff;
   color: white;
   border: none;
   padding: 8px 16px;
