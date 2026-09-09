@@ -96,3 +96,61 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById('menu-grid').innerHTML = '<p>Kunde inte ladda matsedeln just nu.</p>';
         });
 });
+
+let deferredPrompt;
+const pwaBanner = document.getElementById('pwa-banner');
+const pwaAccept = document.getElementById('pwa-accept');
+const pwaClose = document.getElementById('pwa-close');
+
+// 1. Räkna besök i localStorage så vi inte stör förstagångsbesökare
+let visitCount = localStorage.getItem('matsedel_visits') || 0;
+visitCount = parseInt(visitCount) + 1;
+localStorage.setItem('matsedel_visits', visitCount);
+
+// 2. Fånga upp Android/Chrome-installationstriggern
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Förhindra att webbläsaren visar sin egen prompt direkt
+  e.preventDefault();
+  deferredPrompt = e;
+
+  // Kontrollera villkor: Visa bara om användaren har nekat förut och om det är minst andra besöket
+  const isDismissed = localStorage.getItem('pwa_dismissed');
+  
+  if (!isDismissed && visitCount >= 2) {
+    // Visa vår snygga, anpassade banner
+    pwaBanner.style.display = 'block';
+  }
+});
+
+// 3. Om användaren klickar på "Lägg till"
+pwaAccept.addEventListener('click', async () => {
+  if (deferredPrompt) {
+    // Visa den riktiga installationsdialogen
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    
+    // Rensa sparad prompt oavsett val
+    deferredPrompt = null;
+    pwaBanner.style.display = 'none';
+  }
+});
+
+// 4. Om användaren stänger ner bannern (Spara i localStorage så den aldrig stör igen)
+pwaClose.addEventListener('click', () => {
+  pwaBanner.style.display = 'none';
+  localStorage.setItem('pwa_dismissed', 'true');
+});
+
+// 5. Hantera iOS (Safari) separat eftersom det saknar 'beforeinstallprompt'
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+const isInStandaloneMode = ('standalone' in window.navigator) && (window.navigator.standalone);
+
+if (isIOS && !isInStandaloneMode && visitCount >= 2 && !localStorage.getItem('pwa_dismissed')) {
+  // För iOS ändrar vi texten så den förklarar hur man gör manuellt i Safari
+  const bannerText = pwaBanner.querySelector('p');
+  bannerText.innerHTML = 'För att spara appen: Klicka på dela-knappen <span style="font-size:18px;">⎋</span> i botten av Safari och välj <strong>"Lägg till på hemskärmen"</strong>.';
+  
+  // Ta bort den vanliga accept-knappen då iOS-användare måste göra det via webbläsaren
+  pwaAccept.style.display = 'none';
+  pwaBanner.style.display = 'block';
+}
