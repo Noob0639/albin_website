@@ -99,6 +99,10 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+nav a.active {
+    background-color: rgba(255, 255, 255, 0.399);
+}
+
  .headline {
     text-decoration: underline;
     text-align: center;
