@@ -1,1 +1,1 @@
-Sitemap: https://albin.website/sitemap.xml
+Sitemap: https://albin.website/site-map.xml
