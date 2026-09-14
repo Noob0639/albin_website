@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Python Web Game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+
+   
+    
+</head>
+<body>
+    <!-- Unified Retro Terminal Screen Setup -->
+    <div id="terminal-box">
+        <div id="terminal-log"></div>
+        <div class="input-line">
+            <span class="prompt-arrow">&gt;</span>
+            <input type="text" id="user-entry" autocomplete="off" autofocus>
+        </div>
+    </div>
+
+    <!-- FIXED: Removed the 'worker' attribute so Python can access webpage elements directly -->
+    <script type="py" config="conf.json" src="main.py"></script>
+
+</body>
+</html>
+</html>
+
