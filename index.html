@@ -1,26 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albin Website</title>
-    <meta name="description" content="My personal webpage, where i put different projcets.">
+    <meta name="description" content="Färdig budgetmall för svenska hushåll. Arbeta med automatiska beräkningar i Excel eller Google Sheets.">
+    
     <link rel="stylesheet" href="./style.css">
-
-<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon16.png">
-<link rel="icon" type="image/png" sizes="64x64" href="./images/favicon64.png">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon16.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="./images/favicon64.png">
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Svensk Privatbudget - Excel Mall">
+    <meta property="og:description" content="Färdig budgetmall för svenska hushåll med automatiska beräkningar.">
+    <meta property="og:image" content="https://albinhaze.gumroad.com/l/xhhfz/image">
 </head>
 <body>
     <nav>
-        <a href="./" class="active" !important>Start</a>
+        <a href="./" class="active">Start</a>
         <a href="./about/">About</a>
         <a href="./projects/">Projects</a>
     </nav>
+    
     <button id="toggleMode">🌙</button>
+    
     <main class="main-content">
-        <h1 class="headline">Albin Website</h1>
-        <img class="centerimage" src="./images/car.jpg" width="200" height="auto" alt="3d render of a car">
+        <!-- Product Section -->
+        <section class="product-section">
+            <div class="product-header">
+                <div class="product-icon">📊</div>
+                <div>
+                    <h2 class="product-title">Hushållsbudget i Kalkylark</h2>
+                    <div class="product-price">19 SEK</div>
+                </div>
+            </div>
+            
+            <p class="product-description">
+                Få full kontroll över din privat ekonomi med en färdig, genomtänkt budgetmall anpassad för svenska förhållanden.
+            </p>
+            
+            <ul class="product-features">
+                <li>Automatiska formler och kalkyler</li>
+                <li>Filter för fasta och rörliga utgifter</li>
+                <li>Klar månads- och årsöversikt</li>
+                <li>Passar både Excel och Google Sheets</li>
+                <li>Omedelbar nedladdning efter köp</li>
+            </ul>
+            
+            <a href="https://albinhaze.gumroad.com/l/xhhfz" 
+               class="gumroad-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                🛒 Köp Nu & Ladda ner
+            </a>
+        </section>
     </main>
 
     <footer>
@@ -30,11 +65,12 @@
         <div>
             <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
                 <img style="border:0;width:88px;height:31px"
-                    src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-                    alt="Valid CSS!">
+                     src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                     alt="Valid CSS!">
             </a>
         </div>
     </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
